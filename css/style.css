@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Archivo+Black&display=swap');
+:root { 
+    --headings: #0677A1;
+    --text: #78244C;
+    --background: #2D4159;
+    --headings-font-family: 'Antic Slab', serif;
+    --text-font-family:  'Archivo Black', sans-serif;
+     }
+     
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background);
+    text-align: center;
+    font-family: var(--text-font-family);
+    color: var(--text);
+}
+
+h2 {
+    color: #78244C;
+    font-family: var(--headings-font-family);
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+
+
+
+p {
+    line-height: 2;
+}
+
+hr{
+    border: dotted var(--text) 16px;
+    border-bottom: none;
+    margin: 5rem auto;
+    width: 10%;
+    
+}
+
+.middle-container {
+    margin: 5rem 0;
+}
+
+.image-cropper {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.profile-img {
+
+    margin: 0 auto;
+    margin-left: -15%;
+    height: 100%;
+    width: auto;
+}
+
+
+
+
+h1{
+    font-family: var(--headings-font-family);
+}
