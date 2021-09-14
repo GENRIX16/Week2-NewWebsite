@@ -65,8 +65,29 @@ hr{
 }
 
 
-
-
 h1{
     font-family: var(--headings-font-family);
+}
+
+
+
+
+.skill-row{
+    width: 50%;
+    text-align: left;
+    margin: 2rem auto;
+    overflow: hidden;
+    
+}
+
+.code-img{
+    width: 25%;
+    float: left;margin-right: 2rem;
+    position: relative;
+}
+
+
+.hobby-img{
+    width: 25%;
+    float: right;
 }
