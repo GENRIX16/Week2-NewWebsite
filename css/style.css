@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Archivo+Black&display=swap');
 :root { 
     --headings: #0677A1;
-    --text: #78244C;
-    --background: #2D4159;
+    --text: #19e244;
+    --background: #080808;
     --headings-font-family: 'Antic Slab', serif;
     --text-font-family:  'Archivo Black', sans-serif;
      }
@@ -91,3 +91,59 @@ h1{
     width: 25%;
     float: right;
 }
+
+.btn {
+
+    background-color: red;
+    color: white;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  .btn:active {
+    background-color: black;
+  }
+  
+  .btn:visited {
+    background-color: #ccc;
+  }
+  
+  /* Non-Demo Styles */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+
+  .bottom{
+      display: inline-block;
+      margin: 1rem;
+      
+  }
+
+  .li-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .li-wrapper i {
+      margin-right: 1rem;
+  }
+
+  .li-wrapper a {
+        text-decoration: none;
+        color: var(--text);
+  }
+
+
+  .copyright{
+      margin: 5rem;
+  }
